@@ -1,5 +1,5 @@
 # csc-52002-notes
-Personal notes for CSC-52002: Multimodal Artificial Intelligence at École Polytechnique (Winter 2025-2026).
+My personal notes for CSC-52002: Multimodal Artificial Intelligence at École Polytechnique (Winter 2025-2026).
 
 ## Schedule
 ### 1. Introduction to Multimodal AI & Tasks
@@ -64,6 +64,7 @@ flamingo paper... somewhere, maybe not here exactly
 - [Chinchilla's Wild Implications (article)](https://www.lesswrong.com/posts/6Fpvch8RR29qLEWNH/chinchilla-scaling-laws)
 - [Contrastive Representation Learning](https://lilianweng.github.io/posts/2021-05-31-contrastive/)
 - [Generalized Visual Language Models](https://lilianweng.github.io/posts/2022-06-09-vlm/)
+- [Introduction to Transformers w/ Andrej Karpathy (video)](https://www.youtube.com/watch?v=XfpMkf4rD6E)
 
 ### 3. Multimodal Large Language Models & Vision-Language Models
 - LLM Basics and transformer self-attention
@@ -138,6 +139,7 @@ flamingo paper... somewhere, maybe not here exactly
 - [CS224n]
 - CS229
 - CS230
+- [CS25: Transformers United](https://web.stanford.edu/class/cs25/)
 - [Neural Networks: Zero to Hero (course)](https://karpathy.ai/zero-to-hero.html)
 
 ## Miscellaneous
@@ -146,5 +148,89 @@ flamingo paper... somewhere, maybe not here exactly
 - [Jason Wei (blog)](https://www.jasonwei.net/blog)
 - [PyTorch Intro](https://docs.pytorch.org/tutorials/intro.html), [PyTorch Recipes](https://docs.pytorch.org/tutorials/recipes_index.html)
 - [Distill (blog)](https://distill.pub)
+- [Learning from Text (video)](https://www.youtube.com/watch?v=BnpB3GrpsfM)
 
+<!--
 ## Papers
+
+### Foundations (Vision, NLP, Representation)
+- Y. LeCun et al., *Gradient-Based Learning Applied to Document Recognition*, IEEE 1998
+- A. Krizhevsky et al., *ImageNet Classification with Deep CNNs*, NeurIPS 2012
+- K. He et al., *Deep Residual Learning for Image Recognition*, CVPR 2016
+- T. Mikolov et al., *Distributed Representations of Words and Phrases*, NeurIPS 2013
+- J. Devlin et al., *BERT: Pre-training of Deep Bidirectional Transformers*, NAACL 2019
+
+---
+
+### Vision–Language Models (VLMs)
+- J. Lu et al., *ViLBERT*, NeurIPS 2019
+- H. Tan & M. Bansal, *LXMERT*, EMNLP 2019
+- L. Li et al., *VisualBERT*, arXiv 2019
+- Y.-C. Chen et al., *UNITER*, ECCV 2020
+- A. Radford et al., *CLIP*, ICML 2021
+- J. Alayrac et al., *Flamingo*, NeurIPS 2022
+- J. Yu et al., *CoCa: Contrastive Captioners*, NeurIPS 2022
+- J. Li et al., *BLIP*, ICML 2022
+- J. Li et al., *BLIP-2*, ICML 2023
+
+---
+
+### Multimodal LLMs & Unified Models
+- R. Ramesh et al., *DALL·E*, ICML 2021
+- H. Liu et al., *LLaVA*, NeurIPS 2023
+- Microsoft, *Kosmos-1*, ICLR 2023
+- Meta AI, *ImageBind*, CVPR 2023
+- OpenAI, *GPT-4 Technical Report*, 2023
+- DeepMind, *Gemini*, 2023
+
+---
+
+### Generative Models – GANs
+- I. Goodfellow et al., *Generative Adversarial Nets*, NeurIPS 2014
+- A. Radford et al., *DCGAN*, ICLR 2016
+- P. Isola et al., *pix2pix*, CVPR 2017
+- J.-Y. Zhu et al., *CycleGAN*, ICCV 2017
+- T. Karras et al., *Progressive Growing of GANs*, ICLR 2018
+- T. Karras et al., *StyleGAN*, CVPR 2019
+- T. Karras et al., *StyleGAN2*, CVPR 2020
+
+---
+
+### Generative Models – VAEs
+- D. Kingma & M. Welling, *Auto-Encoding Variational Bayes*, ICLR 2014
+- D. Rezende et al., *Stochastic Backpropagation*, ICML 2014
+- C. Doersch, *Tutorial on Variational Autoencoders*, arXiv 2016
+- I. Higgins et al., *β-VAE*, ICLR 2017
+
+---
+
+### Generative Models – Diffusion
+- J. Sohl-Dickstein et al., *Deep Unsupervised Learning using Nonequilibrium Thermodynamics*, ICML 2015
+- J. Ho et al., *DDPM*, NeurIPS 2020
+- Y. Song et al., *Score-Based Generative Modeling*, ICLR 2021
+- A. Nichol & P. Dhariwal, *Improved DDPM*, ICML 2021
+- R. Rombach et al., *Latent Diffusion Models*, CVPR 2022
+- C. Saharia et al., *Imagen*, ICML 2022
+
+---
+
+### Scaling Laws & Training Dynamics
+- J. Kaplan et al., *Scaling Laws for Neural Language Models*, arXiv 2020
+- T. Hoffmann et al., *Training Compute-Optimal LLMs (Chinchilla)*, NeurIPS 2022
+- H. Touvron et al., *LLaMA*, ICML 2023
+- OpenAI, *GPT-3*, NeurIPS 2020
+
+---
+
+### Representation & Contrastive Learning
+- T. Chen et al., *SimCLR*, ICML 2020
+- K. He et al., *MoCo*, CVPR 2020
+- J.-B. Grill et al., *BYOL*, NeurIPS 2020
+- A. Radford et al., *CLIP*, ICML 2021
+
+---
+
+### Interpretability & Understanding Models
+- C. Olah et al., *Feature Visualization*, Distill 2017
+- C. Olah et al., *The Building Blocks of Interpretability*, Distill 2018
+- Anthropic, *Transformer Circuits*, 2021–2023 -->
